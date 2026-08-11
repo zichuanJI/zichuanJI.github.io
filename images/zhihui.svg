@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="300" viewBox="0 0 500 300" role="img" aria-labelledby="title desc">
+  <title id="title">ZhiHui</title>
+  <desc id="desc">Industry news intelligence platform project mark</desc>
+  <rect width="500" height="300" rx="20" fill="#f3f6f8"/>
+  <circle cx="250" cy="120" r="56" fill="#2f5d7c"/>
+  <path d="M222 120h56M250 92v56" stroke="#fff" stroke-width="12" stroke-linecap="round"/>
+  <text x="250" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#30363b">ZhiHui</text>
+  <text x="250" y="242" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#6a747c">News Intelligence Agent</text>
+</svg>

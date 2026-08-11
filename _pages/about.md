@@ -3,56 +3,85 @@ permalink: /
 title: ""
 excerpt: ""
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+# 👀 About Me
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+Hi,
 
+🌱 I am **Junyu Ji (吉俊宇)**, an undergraduate student in Information Management and Information Systems at the [School of Information Management, Nanjing University](https://im.nju.edu.cn/) (2024 - 2028). My current GPA is **4.53/5.00**, ranking **6/69 (top 10%)** in my major.
+
+📖 My research interests include:
+- LLM Reasoning & Alignment
+- Multimodal Large Language Models and Multimodal Agent Systems
+- Data-centric AI, RAG, GraphRAG, and knowledge graphs
+
+📫 I am always open to research collaboration, project discussions, and internship opportunities. Feel free to contact me via [email](mailto:jijunyu@smail.nju.edu.cn) or download my [CV](/files/Junyu_Ji_CV.pdf).
+
+<span class='anchor' id='-news'></span>
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2026.06*: &nbsp;Our project **ZhiHui** won the Second Prize in the Nanjing University OpenClaw Competition.
+- *2026.03*: &nbsp;Our project was selected for the Nanjing University Undergraduate Innovation Training Program.
+- *2026.03*: &nbsp;I started leading [Course2Node](https://github.com/zichuanJI/Course2Node), a multimodal knowledge graph and intelligent agent system.
+- *2026.02*: &nbsp;Our team received the **Meritorious Winner** award in MCM/ICM.
+- *2025.02*: &nbsp;I won the Third Prize in the Nanjing University EL Programming Competition.
 
-# 📝 Publications 
+<span class='anchor' id='-projects'></span>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+# 📝 Projects
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2026</div><img src='images/course2node.png' alt="Course2Node" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[**Course2Node: Multimodal Knowledge Graph and Intelligent Agent System**](https://github.com/zichuanJI/Course2Node)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+**Project Lead**
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+[[Code](https://github.com/zichuanJI/Course2Node)]
+- Designed a multimodal course-material pipeline for PDFs, lecture notes, and classroom audio, with LLM-based concept and relation extraction.
+- Built the GraphRAG retrieval module by combining BAAI/bge-m3 embeddings, graph expansion, and source-text grounding.
+- Implemented the FastAPI backend, model-service adapters, local storage, Docker deployment, and automated tests.
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2026</div><img src='images/zhihui.svg' alt="ZhiHui" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**ZhiHui: Automated Industry News Collection and Intelligent Publishing Platform**
+
+**Team Member**
+
+- Built an LLM application platform on top of TrendRadar for news collection, processing, summarization, and publishing.
+- Deployed and integrated backend modules and connected an OpenClaw Agent for user-facing retrieval and result presentation.
+- Won the Second Prize in the Nanjing University OpenClaw Competition.
+</div>
+</div>
+
+<span class='anchor' id='-experience'></span>
+
+# 💻 Skills
+- **Programming & Engineering:** Python, C++, PyTorch, FastAPI, Git, Docker
+- **LLM & Retrieval:** Transformer, RAG, GraphRAG, vector retrieval, embeddings, LLM agents, LoRA, LLaMA-Factory
+- **Research Tools:** LaTeX, Markdown, paper reading, experiment reproduction, and result documentation
+- **Languages:** CET-4 606, CET-6 522, TOEFL iBT 100
+
+<span class='anchor' id='-honors-and-awards'></span>
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2026.06*: &nbsp;Second Prize, Nanjing University OpenClaw Competition
+- *2026.03*: &nbsp;Nanjing University Undergraduate Innovation Training Program, university-level project
+- *2026.02*: &nbsp;MCM/ICM, Meritorious Winner
+- *2025.02*: &nbsp;Third Prize, Nanjing University EL Programming Competition
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+<span class='anchor' id='-educations'></span>
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
-
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+# 📖 Education
+- *2024.09 - 2028.06*, **Nanjing University**, B.M. candidate in Information Management and Information Systems
+  - GPA: 4.53/5.00; rank: 6/69 (top 10%)
+  - Selected coursework: Data Science and Data Analytics (97), Data Structures (96), Fundamentals of Information Theory (96), Probability and Mathematical Statistics (92), Operations Research (89)
