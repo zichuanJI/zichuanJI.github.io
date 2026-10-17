@@ -84,4 +84,4 @@ Hi,
 
 # 📖 Education
 - *2024.09 - 2028.06*, **Nanjing University**, B.M. candidate in Information Management and Information Systems
-  - Selected coursework: Data Science and Data Analytics, Data Structures, Fundamentals of Information Theory, Probability and Mathematical Statistics, Operations Research
+  - Selected coursework: Data Science and Data Analytics (97), Data Structures (96), Fundamentals of Information Theory (96), Probability and Mathematical Statistics (92), Operations Research (89)
