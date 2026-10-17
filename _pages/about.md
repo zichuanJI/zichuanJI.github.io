@@ -70,7 +70,7 @@ Hi,
 - **Programming & Engineering:** Python, C++, PyTorch, FastAPI, Git, Docker
 - **LLM & Retrieval:** Transformer, RAG, GraphRAG, vector retrieval, embeddings, LLM agents, LoRA, LLaMA-Factory
 - **Research Tools:** LaTeX, Markdown, paper reading, experiment reproduction, and result documentation
-- **Languages:** CET-4 606, CET-6 522, TOEFL iBT 100
+- **Languages:** CET-4 606, CET-6 582, TOEFL iBT 100
 
 <span class='anchor' id='-honors-and-awards'></span>
 
