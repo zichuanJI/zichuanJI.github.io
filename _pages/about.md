@@ -58,6 +58,7 @@ Hi,
 
 **Team Member**
 
+[[Code](https://github.com/Peruere1828/TrendRadar)]
 - Built an LLM application platform on top of TrendRadar for news collection, processing, summarization, and publishing.
 - Deployed and integrated backend modules and connected an OpenClaw Agent for user-facing retrieval and result presentation.
 - Won the Second Prize in the Nanjing University OpenClaw Competition.
