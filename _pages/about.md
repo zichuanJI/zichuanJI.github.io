@@ -14,12 +14,13 @@ redirect_from:
 
 Hi,
 
-🌱 I am **Junyu Ji (吉俊宇)**, an undergraduate student in Information Management and Information Systems at the [School of Information Management, Nanjing University](https://im.nju.edu.cn/) (2024 - 2028). My current GPA is **4.53/5.00**, ranking **6/69 (top 10%)** in my major.
+🌱 I am **Junyu Ji (吉俊宇)**, an undergraduate student in Information Management and Information Systems at the [School of Information Management, Nanjing University](https://im.nju.edu.cn/) (2024 - 2028).
 
 📖 My research interests include:
-- LLM Reasoning & Alignment
-- Multimodal Large Language Models and Multimodal Agent Systems
-- Data-centric AI, RAG, GraphRAG, and knowledge graphs
+- LLM, MLLM, Agent
+- Federated Graph Learning
+- Data-Centric AI
+- dLLM
 
 📫 I am always open to research collaboration, project discussions, and internship opportunities. Feel free to contact me via [email](mailto:jijunyu@smail.nju.edu.cn) or download my [CV](/files/Junyu_Ji_CV.pdf).
 
@@ -83,5 +84,4 @@ Hi,
 
 # 📖 Education
 - *2024.09 - 2028.06*, **Nanjing University**, B.M. candidate in Information Management and Information Systems
-  - GPA: 4.53/5.00; rank: 6/69 (top 10%)
-  - Selected coursework: Data Science and Data Analytics (97), Data Structures (96), Fundamentals of Information Theory (96), Probability and Mathematical Statistics (92), Operations Research (89)
+  - Selected coursework: Data Science and Data Analytics, Data Structures, Fundamentals of Information Theory, Probability and Mathematical Statistics, Operations Research
