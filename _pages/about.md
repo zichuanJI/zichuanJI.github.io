@@ -27,7 +27,7 @@ Hi,
 <span class='anchor' id='-news'></span>
 
 # 🔥 News
-- *2026.10*: &nbsp;I received the **Yang Lanyun Leadership Scholarship (杨蓝云领导型人才奖学金)**, a major scholarship at Nanjing University.
+- *2026.10*: &nbsp;I received the **Yang Lanyun Leadership Scholarship**, a major scholarship at Nanjing University.
 - *2026.06*: &nbsp;Our project **ZhiHui** won the Second Prize in the Nanjing University OpenClaw Competition.
 - *2026.03*: &nbsp;Our project was selected for the Nanjing University Undergraduate Innovation Training Program.
 - *2026.03*: &nbsp;I started leading [Course2Node](https://github.com/zichuanJI/Course2Node), a multimodal knowledge graph and intelligent agent system.
